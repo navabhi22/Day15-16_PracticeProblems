@@ -6,7 +6,7 @@ namespace AlgorithmProgram
     {
         static void Main(string[] args)
         {
-            PrimeNumber.PrimeNum(1, 10);
+            PrimeNumber.PrimeNum(0, 1000);
         }
 
     }
