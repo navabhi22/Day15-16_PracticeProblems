@@ -7,9 +7,11 @@ namespace AlgorithmProgram
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Algorithm Problems Program");
-            String str = "TEST";
-            int n = str.Length;
-            PermutationOfString.Permute(str, 0, n - 1);
+
+            //Problem-3
+
+            Anagram anagram = new Anagram();
+            anagram.CheckAnagram();
 
         }
     }
