@@ -27,12 +27,7 @@ namespace AlgorithmProgram
                 if (numOfFact == 2)
                 {
                     //return (true);
-                    Console.WriteLine("{0} is prime "+j );
-                }
-                else
-                {
-                    //return (false);
-                    Console.WriteLine("{0} not prime " +j);
+                    Console.WriteLine(j);
                 }
             }
         }
